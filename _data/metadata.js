@@ -1,11 +1,5 @@
-export default {
-	title: "Eleventy Base Blog v9",
-	url: "https://example.com/",
-	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
-	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
-	}
-}
+module.exports = {
+  title: "Музей жетонов метро",
+  description: "Каталог коллекции жетонов, билетов и объектов городского транспорта",
+  url: "https://zander-museum.netlify.app" // укажи свой домен, если он будет отличаться
+};
