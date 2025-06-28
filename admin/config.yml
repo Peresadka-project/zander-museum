@@ -9,12 +9,12 @@ collections:
   - name: "pages"
     label: "Страницы"
     files:
-      - label: "О сайте"
-        name: "about"
-        file: "content/about.md"
+      - file: "content/index.md"
+        label: "Главная"
+        name: "home"
         fields:
           - { label: "Заголовок", name: "title", widget: "string" }
-          - { label: "Текст", name: "body", widget: "markdown" }
+          - { label: "Содержимое", name: "body", widget: "markdown" }
 
       - label: "Страница 404"
         name: "notfound"
