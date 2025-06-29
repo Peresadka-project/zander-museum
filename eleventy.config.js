@@ -153,7 +153,8 @@ export const config = {
 	// Optional items:
 	// -----------------------------------------------------------------
 
-	// If your site deploys to a subdirectory, change `pathPrefix`.
+	// If your site deploys to a sub
+ectory, change `pathPrefix`.
 	// Read more: https://www.11ty.dev/docs/config/#deploy-to-a-subdirectory-with-a-path-prefix
 
 	// When paired with the HTML <base> plugin https://www.11ty.dev/docs/plugins/html-base/
