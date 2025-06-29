@@ -6,5 +6,11 @@
   </head>
   <body>
     <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
+    
+    <!-- Добавляем инициализацию Netlify Identity -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      netlifyIdentity.init();
+    </script>
   </body>
 </html>
