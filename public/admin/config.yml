@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Peresadka-project/zander-museum
   branch: main
 
 media_folder: "public/img/uploads"
